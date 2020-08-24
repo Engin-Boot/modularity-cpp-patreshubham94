@@ -1,5 +1,5 @@
-//#ifndef FILE_H 
-//#define FILE_H 
+#ifndef FILE_H 
+#define FILE_H 
 namespace TelCoColorCoder
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
@@ -47,4 +47,4 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
 }
-//#endif
+#endif
