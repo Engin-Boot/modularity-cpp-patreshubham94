@@ -9,7 +9,7 @@ For more details refer to [This Wiki](https://en.wikipedia.org/wiki/25-pair_colo
 
 There are 25 possible pairs of colors. 
 
-- Each pair of colors maps to a corresponding number
+- Each pair of colors maps to a corresponding number.
 - Such numbers translate to a pair of colors -
 a major color and a minor color.
 
