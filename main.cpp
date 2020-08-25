@@ -25,10 +25,9 @@ void ToString() {
     for(int pair = 1; pair <= 25; pair++) {
        TelCoColorCoder::ColorPair colorPair =
             TelCoColorCoder::GetColorFromPairNumber(pair);
-        std::cout <<pair<<" :- "<<colorPair.ToString() << std::endl;
+        std::cout <<"Pair_"<<pair<<" :- "<<colorPair.ToString() << std::endl;
     }
 }
-
 int main() {
     testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
     testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
